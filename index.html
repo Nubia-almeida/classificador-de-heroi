@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Classificador de nível de Herói</title>
+    <link rel="stylesheet" href="src/style.css">
+    
 </head>
 <body>
-    <p>vamos la</p>
+    <header>
+        <h1>Seu Herói está em qual nível?</h1>
+    </header>
+
+    <main>
+    
+        <label>Nome do Herói
+            <input id="nomeHeroi" type="text" required aria-required="true">
+        </label>
+    
+        <label>Pontuação
+            <input id="pontosXp" type="text" required aria-required="true">
+        </label>
+
+        <button onclick="consulta()" type="submit" id="enviar">Descubra</button>
+
+        <button onclick="limparMensagem()" type="submit" id="limpar">Limpar</button>
+        
+        <div id="mensagem"></div>
+
+    </main>
+    
+    <script src="desafio.js"></script>
 </body>
 </html>

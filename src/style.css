@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: rgb(236, 236, 143);
+}
+
+header {
+    margin: 1rem;
+}
+
+main {
+    margin: 2.563rem 0.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    width: 18.75rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+label input {
+    cursor: pointer;
+    margin: 0.938rem;
+}
+
+button {
+    background-color: lightgray;
+    height: 1.875rem;
+    width: 6.25rem;
+    cursor: pointer;
+    margin: 0.938rem;
+}
+
+
+
